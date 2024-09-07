@@ -1,0 +1,3 @@
+/Users/apple/FrameworkTest/build/CMakeFiles/TestLib.dir
+/Users/apple/FrameworkTest/build/CMakeFiles/edit_cache.dir
+/Users/apple/FrameworkTest/build/CMakeFiles/rebuild_cache.dir

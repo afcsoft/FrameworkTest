@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = TestLibWrapper
+build_property.ProjectDir = /Users/apple/FrameworkTest/TestLibWrapper/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

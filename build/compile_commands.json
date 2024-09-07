@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/apple/FrameworkTest/build",
+  "command": "/usr/bin/clang++ -DTestLib_EXPORTS -I/Users/apple/FrameworkTest/native/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fPIC -o CMakeFiles/TestLib.dir/src/test.cpp.o -c /Users/apple/FrameworkTest/native/src/test.cpp",
+  "file": "/Users/apple/FrameworkTest/native/src/test.cpp",
+  "output": "CMakeFiles/TestLib.dir/src/test.cpp.o"
+}
+]

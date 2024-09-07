@@ -1,0 +1,115 @@
+{
+    "version": 3,
+    "cmakeMinimumRequired": {
+      "major": 3,
+      "minor": 19,
+      "patch": 0
+    },
+    "configurePresets": [
+      {
+        "name": "default",
+        "hidden": true,
+        "generator": "Ninja",
+        "cacheVariables": {
+          "BUILD_SHARED_LIBS": true,
+          "VCPKG_MANIFEST_MODE": "on"
+        }
+      },
+      {
+        "name": "windows-x64",
+        "inherits": "default",
+        "description": "Configuration for Windows x64",
+        "binaryDir": "${sourceDir}/out/windows-x64",
+        "generator": "Visual Studio 16 2019",
+        "cacheVariables": {
+          "FX_RUNTIME_DIR": "windows-x64",
+          "VCPKG_TARGET_TRIPLET": "x64-windows-static"
+        },
+        "architecture": {
+          "value": "x64"
+        }
+      },
+      {
+        "name": "linux-x64",
+        "inherits": "default",
+        "description": "Configuration for Linux x64",
+        "generator": "Ninja",
+        "binaryDir": "${sourceDir}/out/linux-x64",
+        "cacheVariables": {
+          "FX_RUNTIME_DIR": "linux-x64",
+          "VCPKG_TARGET_TRIPLET": "x64-linux"
+        }
+      },
+      {
+        "name": "linux-arm64",
+        "inherits": "default",
+        "description": "Configuration for Linux ARM64",
+        "generator": "Ninja",
+        "binaryDir": "${sourceDir}/out/linux-arm64",
+        "toolchainFile": "${sourceDir}/cmake/linux-arm64.cmake",
+        "cacheVariables": {
+          "FX_RUNTIME_DIR": "linux-arm64",
+          "VCPKG_TARGET_TRIPLET": "arm64-linux-static"
+        }
+      },
+      {
+        "name": "macos-x64",
+        "inherits": "default",
+        "description": "Configuration for macOS x64",
+        "generator": "Ninja",
+        "binaryDir": "${sourceDir}/out/macos-x64",
+        "cacheVariables": {
+          "FX_RUNTIME_DIR": "osx-x64",
+          "VCPKG_TARGET_TRIPLET": "x64-osx-static",
+          "CMAKE_OSX_ARCHITECTURES": "x86_64"
+        }
+      },
+      {
+        "name": "macos-arm64",
+        "inherits": "default",
+        "description": "Configuration for macOS ARM64",
+        "generator": "Ninja",
+        "binaryDir": "${sourceDir}/out/macos-arm64",
+        "cacheVariables": {
+          "FX_RUNTIME_DIR": "osx-arm64",
+          "VCPKG_TARGET_TRIPLET": "arm64-osx-static",
+          "CMAKE_OSX_ARCHITECTURES": "arm64"
+        }
+      },
+      {
+        "name": "android-arm64",
+        "inherits": "default",
+        "description": "Configuration for Android ARM64",
+        "generator": "Ninja",
+        "binaryDir": "${sourceDir}/out/android-arm64",
+        "toolchainFile": "${sourceDir}/cmake/android-arm64.cmake",
+        "cacheVariables": {
+          "FX_RUNTIME_DIR": "android-arm64",
+          "CMAKE_BUILD_TYPE": "Release",
+          "CMAKE_ANDROID_STL_TYPE": "c++_static",
+          "VCPKG_TARGET_TRIPLET": "arm64-android",
+          "CMAKE_SYSTEM_VERSION": "28",
+          "ANDROID_PLATFORM": "android-28",
+          "VCPKG_CMAKE_SYSTEM_NAME": "android"
+        }
+      },
+      {
+        "name": "ios-arm64",
+        "inherits": "default",
+        "description": "Configuration for iOS ARM64",
+        "generator": "Xcode",
+        "binaryDir": "${sourceDir}/out/ios-arm64",
+        "toolchainFile": "${sourceDir}/cmake/ios-arm64.cmake",
+        "cacheVariables": {
+          "FX_RUNTIME_DIR": "ios-arm64",
+          "PLATFORM": "OS64COMBINED",
+          "CMAKE_SYSTEM_NAME": "iOS",
+          "CMAKE_OSX_ARCHITECTURES": "arm64;x86_64",
+          "CMAKE_BUILD_TYPE": "Release",
+          "BUILD_SHARED_LIBS": "off",
+          "VCPKG_TARGET_TRIPLET": "arm64-ios",
+          "CMAKE_IOS_INSTALL_COMBINED": "YES"
+        }
+      }
+    ]
+  }

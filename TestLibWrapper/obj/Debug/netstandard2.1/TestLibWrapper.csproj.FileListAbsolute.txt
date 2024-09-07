@@ -1,0 +1,9 @@
+/Users/apple/FrameworkTest/TestLibWrapper/bin/Debug/netstandard2.1/TestLibWrapper.deps.json
+/Users/apple/FrameworkTest/TestLibWrapper/bin/Debug/netstandard2.1/TestLibWrapper.dll
+/Users/apple/FrameworkTest/TestLibWrapper/bin/Debug/netstandard2.1/TestLibWrapper.pdb
+/Users/apple/FrameworkTest/TestLibWrapper/obj/Debug/netstandard2.1/TestLibWrapper.GeneratedMSBuildEditorConfig.editorconfig
+/Users/apple/FrameworkTest/TestLibWrapper/obj/Debug/netstandard2.1/TestLibWrapper.AssemblyInfoInputs.cache
+/Users/apple/FrameworkTest/TestLibWrapper/obj/Debug/netstandard2.1/TestLibWrapper.AssemblyInfo.cs
+/Users/apple/FrameworkTest/TestLibWrapper/obj/Debug/netstandard2.1/TestLibWrapper.csproj.CoreCompileInputs.cache
+/Users/apple/FrameworkTest/TestLibWrapper/obj/Debug/netstandard2.1/TestLibWrapper.dll
+/Users/apple/FrameworkTest/TestLibWrapper/obj/Debug/netstandard2.1/TestLibWrapper.pdb

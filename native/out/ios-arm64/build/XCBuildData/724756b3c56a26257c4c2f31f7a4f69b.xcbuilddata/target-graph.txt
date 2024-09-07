@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+Target 'ALL_BUILD' in project 'TestLib'
+➜ Explicit dependency on target 'TestLib' in project 'TestLib'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'TestLib'
+Target 'TestLib' in project 'TestLib'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'TestLib'
+Target 'ZERO_CHECK' in project 'TestLib' (no dependencies)

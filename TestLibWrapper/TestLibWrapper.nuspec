@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>TestLibWrapper</id>
+    <version>1.0.6</version>
+    <authors>Test</authors>
+    <owners>Test</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Test Lib Wrapper</description>
+    <tags>C++ C#</tags>
+    <dependencies>
+      <group targetFramework=".NetStandard2.1"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="runtimes/**" target="runtimes"/>
+    <file src="bin/Debug/netstandard2.1/TestLibWrapper.dll" target="lib/netstandard2.1/TestLibWrapper.dll"/>
+    <file src="TestLibWrapper.targets" target="build/TestLibWrapper.targets"/>
+  </files>
+</package>

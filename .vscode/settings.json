@@ -1,0 +1,4 @@
+{
+    "cmake.sourceDirectory": "/Users/apple/FrameworkTest/native",
+    "dotnet.defaultSolution": "TestLibWrapper.sln"
+}

@@ -1,0 +1,3 @@
+/Users/apple/FrameworkTest/native/out/ios-arm64/CMakeFiles/TestLib.dir
+/Users/apple/FrameworkTest/native/out/ios-arm64/CMakeFiles/ALL_BUILD.dir
+/Users/apple/FrameworkTest/native/out/ios-arm64/CMakeFiles/ZERO_CHECK.dir

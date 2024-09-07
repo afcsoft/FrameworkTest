@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/apple/FrameworkTest/TestLibWrapper/TestLibWrapper.csproj": {}
+  },
+  "projects": {
+    "/Users/apple/FrameworkTest/TestLibWrapper/TestLibWrapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/apple/FrameworkTest/TestLibWrapper/TestLibWrapper.csproj",
+        "projectName": "TestLibWrapper",
+        "projectPath": "/Users/apple/FrameworkTest/TestLibWrapper/TestLibWrapper.csproj",
+        "packagesPath": "/Users/apple/.nuget/packages/",
+        "outputPath": "/Users/apple/FrameworkTest/TestLibWrapper/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/apple/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "/Users/apple/Documents/NuGet": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
